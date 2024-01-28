@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news",
+  "info": {
+    "singularName": "new",
+    "pluralName": "news",
+    "displayName": "New",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "new_name": {
+      "type": "string"
+    },
+    "information": {
+      "type": "text"
+    },
+    "last_available_date": {
+      "type": "date"
+    },
+    "imageURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+#txt {
+  color: white
+}
+
+.image-container {
+  width: 350px;
+  height: 350px;
+}
+
+.eventTable {
+  color: aliceblue;
+}
+
+#LogoutNav {
+  align-items: end;
+  text-align: end;
+  color: red;
+  vertical-align: middle;
+}
+
+#loginLight {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 43%, rgba(227, 227, 227, 1) 100%);
+}
+
+#spinning {
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#centerButton {
+  align-items: center;
+  margin: 10px;
+}
+
+#tableBody {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  margin: auto;
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#positionBody {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 100%;
+  width: auto;
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#bgNav {
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#NavbarEdit {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#box {
+  outline: auto;
+  outline-color: #61dafb;
+  outline-width: 10px;
+  outline-offset: 5px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#entirePage {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100%;
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#ErrorBody {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+}
+
+#Error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: rgb(42, 42, 52);
+  background: linear-gradient(180deg, rgba(42, 42, 52, 1) 43%, rgba(49, 60, 82, 1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrongPassword {
+  color: red;
+}
+
+#page {
+  color: black;
+}
